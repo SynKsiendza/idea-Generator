@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Idea Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="js/generator.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="header"> Coding Projects Ideas Generator</div>
+    <div class="main">
+        <p style="text-align: center">This is an App which purpose is to generate you an Idea for your coding Advanture, or an Language if you have an Idea but don't know which language to choose!</p>
+        <div class="result" id="result"> 
+            <div class="result-idea">Generated Idea: <span id="result-idea" class="result2"></span></div><br>
+            <hr width="90%" color="gray">
+            <div class="result-lang">Generated Language: <span id="result-lang" class="result2"></span></div>
+        </div>
+        <div class="checkMark2" > <input type="checkbox" id="checkboxOnlyWeb" value="checked"> Generate only web languages and Frameworks</div>
+        <div class="checkMark" > <input type="checkbox" id="checkboxNoWebUse"> Don't use web languages or frameworks</div>
+        <div class="genIdea" id="genIdea" onclick="generatorIdea()"> Generate Idea </div>
+        <div class="genLang" id="genLang" onclick="generatorLang()"> Generate Language </div>
+        <div class="genAll" id="genLangAll" onclick="generatorAll()"> Generate Everything</div>
+    </div>
+    <div class="footer">2023 &copy; SynKsiendza</div>
+</body>
+</html>

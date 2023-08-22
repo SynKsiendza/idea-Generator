@@ -1,0 +1,215 @@
+html
+{
+    font-family: 'ADLaM Display', cursive;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+body
+{
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,97,1) 20%, rgba(0,99,135,1) 40%, rgba(0,115,128,1) 60%, rgba(0,86,101,1) 80%, rgba(0,7,94,1) 100%);
+    background-size: 200%;
+}
+.header
+{
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 50%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 35px;
+    padding: 5 0 5 0px;
+}
+.main
+{
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 50%;
+    height: 815px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer
+{
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 5 0 5 0px;
+}
+.result
+{
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 86.5%;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 20px;
+    padding: 15px;
+}
+.genIdea
+{
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 40%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    text-align: center;
+    font-size: 35px;
+    padding: 5 0 5 0px;
+    float: left;
+    transition: 350ms;
+    cursor: default;
+}
+.genLang
+{
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 40%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 35px;
+    padding: 5 0 5 0px;
+    float: right;
+    transition: 350ms;
+    cursor: default;
+}
+.genLang:hover
+{
+    transition: 350ms;
+    margin-left: 1.5%;
+    margin-right: 4%;
+    width: 42%;
+    background: rgba(155, 155, 155, 0.5);
+    height: 55px;
+    margin-top: 2.5px;
+    margin-bottom: 7.5px;
+    padding-top: 2.5px;
+}
+.genIdea:hover
+{
+    transition: 350ms;
+    margin-left: 4%;
+    margin-right: 1.5%;
+    width: 42%;
+    background: rgba(155, 155, 155, 0.5);
+    height: 55px;
+    margin-top: 2.5px;
+    margin-bottom: 7.5px;
+    padding-top: 2.5px;
+}
+.checkMark
+{
+    margin-left: 10%;
+    margin-bottom: 2.5%;
+}
+.checkMark2
+{
+    margin-left: 10%;
+    margin-top: 2.5%;
+}
+input
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border-width: 0px;
+    border: none;
+    padding-bottom: 5px;
+    background-color: #00F00F;
+}
+.result-idea
+{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.result-lang
+{
+    padding-top: 20px;
+    padding-left: 25px;
+}
+.result2
+{
+    float: right;
+    padding-right: 100px;
+}
+.genAll
+{
+    background: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.9px);
+    -webkit-backdrop-filter: blur(9.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 90%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 35px;
+    padding: 5 0 5 0px;
+    float: left;
+    transition: 350ms;
+    cursor: default;
+}
+.genAll:hover
+{
+    transition: 350ms;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+    background: rgba(155, 155, 155, 0.5);
+    height: 55px;
+    margin-top: 2.5px;
+    margin-bottom: 7.5px;
+    padding-top: 2.5px;
+}
